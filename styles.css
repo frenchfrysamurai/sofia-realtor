@@ -70,9 +70,9 @@ a {
 /* Navbar */
 
 .nav {
-    background-color: blue;
+    background-color: rgba(251, 251, 251, 0.527);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -93,7 +93,11 @@ a {
 }
 
 .nav-list a:hover {
-    background: red;
+    background: none;
+}
+
+.logo {
+    height: 10rem;
 }
 
 /* Welcome section */
@@ -111,5 +115,12 @@ a {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
+.welc {
+    color: white;
+    font-weight: 800;
+}
+
+
 
 

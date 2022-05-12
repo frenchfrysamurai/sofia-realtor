@@ -221,6 +221,12 @@ a {
     background-size: cover;
 }
 
+@media (max-width: 28.75em) {
+    .welcome-section {
+        background-image: url('assets/blockhomesM.png');
+    }
+}
+
 .welc {
     background-color: rgba(102, 102, 102, 0.596);
     width: 100%;

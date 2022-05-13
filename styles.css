@@ -239,9 +239,8 @@ a {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 80vh;
     background-color: #333;
 }
 
@@ -250,6 +249,8 @@ a {
     width: 200px;
     border: 1px solid black;
     box-shadow: 10px 15px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .portrait {
@@ -261,6 +262,9 @@ a {
 .details {
     width: 80%;
     text-align: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Sold */

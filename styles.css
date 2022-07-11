@@ -213,19 +213,19 @@ a {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: black;
     background-image: url('assets/blockhomes.jpg');
-    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
+
+/* 460px / 15px = 28.75em */
 @media (max-width: 28.75em) {
-    .welcome-section {
-        background-size: cover;
-    }
-}
+  .welcome-section {
+    height: 60vh;
+    background-image: url('assets/blockhomesM.png');
+  }
+} 
 
 .welc {
     background-color: rgba(102, 102, 102, 0.596);

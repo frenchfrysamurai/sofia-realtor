@@ -223,7 +223,7 @@ a {
 
 @media (max-width: 28.75em) {
     .welcome-section {
-        background-image: url('assets/blockhomesM.png');
+        background-size: cover;
     }
 }
 
